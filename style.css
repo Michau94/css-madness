@@ -12,3 +12,22 @@
   display:table;
   clear: both;
 }
+.row :first-child{
+    background-color: #CCCCCC;
+}
+.row :nth-child(2){
+    background-color: #999999;
+}
+.row :nth-child(3){
+    background-color: #666666;
+}
+.row :nth-last-child(2){
+    background-color:#555 ;
+}
+.row :last-child{
+    background-color: #333333;
+}
+
+.container-1{
+    float:left; 
+}
