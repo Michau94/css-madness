@@ -1,0 +1,14 @@
+.cube  {
+  height:25px;
+  width: 25px;
+  border:1px solid black;
+  margin: 2px;
+  float:left;
+  border-radius: 10px;
+}
+
+.clearfix:after{
+  content:"";
+  display:table;
+  clear: both;
+}
