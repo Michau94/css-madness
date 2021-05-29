@@ -8,7 +8,7 @@
   border-radius: 10px;
 }
 
-.clearfix::after{
+.clearfix:after{
   content:"";
   display:table;
   clear: both;
@@ -16,6 +16,7 @@
 
 .container-1, .container-2, .container-3{
     float:left; 
+    margin: 20px 0; 
 }
 /* PATTERN 1 */
 
@@ -68,6 +69,10 @@
     background-color: #FFB26D;
 }
 
+.container-2 div.cube{
+    border-radius: 50%;
+}
+
 /* THIRD PATTERN */
 .container-3 .row1 :nth-child(even){
     background-color:#E67F7E;
@@ -78,8 +83,6 @@
 .container-3 .row2 :nth-child(even){
     background-color:#D83E3B ;
 }
-
-
 .container-3  div.cube{
 border-radius: 0;
 margin: 0; 
