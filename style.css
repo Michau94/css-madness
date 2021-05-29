@@ -14,6 +14,9 @@
   clear: both;
 }
 
+.container-1, .container-2, .container-3{
+    float:left; 
+}
 /* PATTERN 1 */
 
  .container-1 .row  :first-child{
@@ -30,9 +33,6 @@
 }
  .container-1 .row :last-child{
     background-color: #333333;
-}
-.container-1, .container-2{
-    float:left; 
 }
 
 
@@ -67,5 +67,27 @@
 .container-2 .row3 :nth-child(3n + 3){
     background-color: #FFB26D;
 }
+
+/* THIRD PATTERN */
+.container-3 .row1 :nth-child(even){
+    background-color:#E67F7E;
+}
+.container-3 .row2 :nth-child(odd){
+    background-color:#E67F7E;
+}
+.container-3 .row2 :nth-child(even){
+    background-color:#D83E3B ;
+}
+
+
+.container-3  div.cube{
+border-radius: 0;
+margin: 0; 
+border: 1px solid black;
+}
+
+
+
+
 
 
